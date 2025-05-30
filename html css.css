@@ -1,0 +1,121 @@
+*{padding:0; margin:0; box-sizing: border-box;
+
+font-family: "Roboto", sans-serif;
+  font-style: normal;
+    }
+header{
+         width:100%;
+height:100vh;
+background:linear-gradient(to right,rgba(253, 121, 168,0.4)70%, white 30%);
+}
+.top-nav{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: justify;
+padding: 10px 70px;
+}
+.s-icon i:first-child{
+      background: rgba(253, 121, 168,0.3);
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 20px;
+
+}
+.s-icon{
+    color: rgb(16, 15, 15);
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 20px;
+      margin: 0px 5px;
+
+}
+.email{
+    color: black;
+
+    margin:0px 1px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+
+}
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.menu a{
+text-decoration: none;
+color: black;
+font: size 20px; 
+font-weight: bold;
+border-radius: 5px;
+padding: 10px 20px;
+}
+.menu a:first-child{
+   background: rgba(253, 121, 168,0.4);
+}
+.menu a:hover{
+    background: rgba(253, 121, 168,0.3);
+    color: white;
+    transition: 0.4s;
+}
+.containor{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 70px;
+}
+.s-icon i:hover{
+ background: rgba(253, 121, 168,0.3);
+ color: beige;
+ transition: 0.4s;
+
+}
+.right{
+    flex-basis: 50%;
+    text-align: center;
+}
+.left h1{
+    font-size: 4rem;
+
+}
+.left h1 span{
+    color: antiquewhite;
+    background: rgba(253, 121, 168,0.3);
+    border-radius: 5px;
+    padding: 0px 15px;
+
+}
+.left p{
+    margin: 30px 0px;
+    line-height: 2rem;
+}
+.left button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: rgba(253, 121, 168,0.4);
+    color: white;
+    border-radius: 5px;
+}
+#btn2{
+    padding: 10px 20px;
+    border: 1px solid;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#btn2:hover{
+       color:white;
+       background: rgba(253, 121, 168,0.4);
+       transition: 0.3;
+}
